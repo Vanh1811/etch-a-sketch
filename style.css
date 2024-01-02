@@ -1,0 +1,37 @@
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    width: 42px;
+    height: 42px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
